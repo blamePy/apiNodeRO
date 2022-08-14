@@ -4,5 +4,6 @@ import { methods as archivoROController } from "./../controller/archivoRO.contro
 const router = Router();
 
 router.get("/", archivoROController.getArchivo);
+router.get("/des", archivoROController.getArchivoDes);
 
 export default router;
