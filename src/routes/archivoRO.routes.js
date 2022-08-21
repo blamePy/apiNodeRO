@@ -5,5 +5,7 @@ const router = Router();
 
 router.get("/", archivoROController.getArchivo);
 router.get("/des", archivoROController.getArchivoDes);
+router.get("/:id", archivoROController.getArchivoUser);
+router.get("/des/:id", archivoROController.getArchivoUserDes);
 
 export default router;
